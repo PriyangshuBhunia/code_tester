@@ -1,0 +1,51 @@
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root{
+    height: 100%;
+    width: 100%;
+
+  }
+  main{
+    height: 100%;
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    background-color: #52a82a;
+  }
+  main .laft ,
+  main .right{
+    height: 100%;
+    flex-basis: 50%;
+    border-radius: 0.7rem;
+  }
+  main .laft{
+    background-color: #fff; /*change into black  */
+    position: relative;
+  }
+
+
+  main .laft .review{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #3f2edd;
+    color: #000;
+    padding: 0.5rem 2rem;
+    font-weight: 500;
+    border-radius: 0.7rem;
+    cursor: pointer;
+   
+    
+  }
+
+
+  main .right{
+    background-color: #ad3a3a; /*change into of wight*/
+  }
