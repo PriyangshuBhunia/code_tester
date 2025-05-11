@@ -1,4 +1,4 @@
-  *{
+*{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -17,7 +17,7 @@
     padding: 1.5rem;
     display: flex;
     gap: 1rem;
-    background-color: #52a82a;
+    background-color: #3C3C3C;
   }
   main .laft ,
   main .right{
@@ -26,7 +26,7 @@
     border-radius: 0.7rem;
   }
   main .laft{
-    background-color: #fff; /*change into black  */
+    background-color: #2b2828; /*change into black  */
     position: relative;
   }
 
@@ -38,7 +38,7 @@
     width: 100%;
     margin: 0;
     border-radius: 0.7rem;
-    background-color: #181717;
+    background-color: #080808;
   }
 
 
@@ -46,16 +46,26 @@
     position: absolute;
     bottom: 1rem;
     right: 1rem;
-    background-color: #3f2edd;
-    color: #000;
     padding: 0.5rem 2rem;
     font-weight: 500;
     border-radius: 0.7rem;
     cursor: pointer;
+  }
 
+  main .laft .review.red {
+    background-color: red;
+    color: white;
+  }
+
+  main .laft .review.green {
+    background-color: green;
+    color: white;
   }
 
 
   main .right{
-    background-color: #ad3a3a; /*change into of wight*/
+    background-color: #635e5e; /*change into of wight*/
+    padding: 1rem 2rem ;
+    font-size: 1rem;
+    overflow: auto;
   }
